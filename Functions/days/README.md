@@ -12,5 +12,5 @@ leap - indicates if the year is a leapyear or a regular year. `0` for regular an
 ## Output
 `nd` - number of days elapsed in the year.
 
-##Example: 
+## Example: 
 `days(8,4,0)` represents August 8th in a regular year (non-leap year).
