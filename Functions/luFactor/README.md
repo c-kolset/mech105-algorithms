@@ -14,4 +14,4 @@ Synopsis: `[L, U, P] = luFactor(A)`.
 `P` - the permutation matrix.
 
 ## Notes:
-Be cautious when using this function on bigger matrices. The 'L' variable is known to be incorrect.
+Be cautious when using this function on bigger matrices. The `L` variable is known to be incorrect.

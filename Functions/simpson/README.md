@@ -12,4 +12,4 @@ Synopsis: `[I] = Simpson(x, y)`
 `I` - numerical calculated integral.
 
 ## Notes:
-The current state of this function is **deprecated**. The algorithm fails compute the correct trapeziodal rule given 2 data points as well as 3 data points. Thus, failing to solve real problems.
+The current state of this function is **deprecated**. The algorithm fails compute the correct trapeziodal rule given 2 data points as well as 3 data points. Thus, failing to solve real problem. Pull requests are welcomed.
