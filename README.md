@@ -2,7 +2,7 @@
 Algorithms I created in MECH-105 (2021-Summer-Term). Consisting of MATLAB scripts and functions 
 
 ## Functions:
-* specialMatrix.m - function to make matrix with set criteria
+* specialMatrix.m - function to make special matrix with a specific set of criteria
 * falsePosition.m - numberical root finding function
 * luFactor.m - LU Decomposition
 * Heun.m - Heuns method for solving ODE's
