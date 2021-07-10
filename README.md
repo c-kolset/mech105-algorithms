@@ -1,7 +1,7 @@
 # mech105-algorithms
-Algorithms I created in MECH-105 (2021-Summer-Term). Consists of MATLAB scripts and functions 
+Algorithms I created in MECH-105 (2021-Summer-Term). Consisting of MATLAB scripts and functions 
 
-## Function:
+## Functions:
 * specialMatrix.m
 * falsePosition.m
 * luFactor.m

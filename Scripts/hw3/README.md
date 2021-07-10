@@ -1,0 +1,2 @@
+# hw3.m
+This script solves the volume in a tank with the shape of a cylinder with a tuncated cone on top. This script should be turned into a function to solve the volume of a tank with any given the height of cylinder and truncated cone, and diameter of both the cylinder and top of the truncated cone.

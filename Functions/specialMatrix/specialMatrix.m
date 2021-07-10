@@ -3,8 +3,6 @@ function [A] = specialMatrix(n,m)
 % Inputs n is the number of rows, and m the number of columns
 % It is recomended to first create the matrxix A of the correct size, filling it with zeros to start with is not a bad choice
 
-%--------------------------------------------
-
 if nargin ~= 2
     error('Error: Please enter two arguments.')
 end
@@ -25,27 +23,3 @@ for j = 2:n
 	end
 end
 end
-
-%---------------------------------------------
-
-%{
-if nargin(specialMatrix) ~= 2
-    error('Error: Please enter two arguments.')
-elseif nargin(specialMatrix) <= 0
-    error('Error: Index errer. Argument must be positive integers or logical values.')
-end
-
-if n<2
-    A = [1:m];		%If matrix is 1 x m then make a matrix with 1 row.
-else
-    A = [1:m;1:m];	%Create row 1
-end
-
-for j = 3:n			%Loop to make 
-    A(j,:) = sum(A);	%
-end				%
-A(:,1)=(1:n);
-
-end
-% Things beyond here are outside of your functions
-%}
