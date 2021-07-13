@@ -1,5 +1,5 @@
 # Heun.m
-Euses the heun method to integrate an ODE. 
+Uses the heun method to integrate an ODE. 
 
 Synopsis: `[t,y] = Heun(dydt,tspan,y0,h)`.
 
@@ -22,4 +22,4 @@ Synopsis: `[t,y] = Heun(dydt,tspan,y0,h)`.
 `y` - vector of solution for dependent variable  
 
 ## Notes:
-This function needs some working on to compute a correct solution with multiple steps and an irregular step size at the end. 
+This function needs some working on to compute a correct solution when using multiple steps with an irregular step size at the end. 
