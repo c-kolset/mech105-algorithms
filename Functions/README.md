@@ -21,7 +21,7 @@ The syntax of the function is `days(<months>, <days>, <leap>)` where `<months>` 
 ### Output
 - `nd` - number of days elapsed in the year.
 
-### Example:
+*Example:*
 `days(8,4,0)` represents August 8th in a regular year (non-leap year).
 
 ---
@@ -44,7 +44,7 @@ Synopsis: `[root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargi
 - `ea` - approximated relative error (%).
 - `iter` - number of iterations performed.
 
-### Notes:
+**Notes:**
 Known issue: the output of `iter` needs fixing. The output is incorrect.
 
 ---
@@ -65,7 +65,7 @@ Synopsis: `[t,y] = Heun(dydt,tspan,y0,h)`.
 - `t` - vector of independent variable values
 - `y` - vector of solution for dependent variable
 
-### Notes:
+**Notes:**
 This function needs some working on to compute a correct solution when using multiple steps with an irregular step size at the end.
 
 ---
@@ -83,7 +83,7 @@ Synopsis: `[L, U, P] = luFactor(A)`.
 - `U` - upper triangular matrix.
 - `P` - the permutation matrix.
 
-### Notes:
+**Notes:**
 Be cautious when using this function on bigger matrices. The `L` variable is known to be incorrect.
 
 ---
@@ -99,8 +99,8 @@ Synopsis: `[I] = Simpson(x, y)`
 ### Output
 - `I` - numerical calculated integral.
 
-### Notes:
-The current state of this function is --deprecated--. The algorithm fails compute the correct trapeziodal rule given 2 data points as well as 3 data points. Thus, failing to solve real problem. Pull requests are welcomed.
+**Notes:**
+The current state of this function is *deprecated*. The algorithm fails compute the correct trapeziodal rule given 2 data points as well as 3 data points. Thus, failing to solve real problem. Pull requests are welcomed.
 
 ---
 
@@ -124,5 +124,5 @@ Function returns a special matrix A with the following criteria:
 ### Output
 - `A` - special matrix with the appropriate rules
 
-### Notes:
+**Notes:**
 This function has not much of a practical application, rather a very good exercise for beginners to get started with the basics of matrix manipulation and user-defined functions.
