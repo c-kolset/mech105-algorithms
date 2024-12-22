@@ -1,11 +1,11 @@
 # Functions
 This directory contains the functions written throught the course.
-- days.m
-- falsePositive.m
-- heun.m
-- luFactor.m
-- simpson.m
-- spacialMatrix.m
+- [days.m](#days.m)
+- [falsePositive.m](falsePositive.m)
+- [heun.m](heun.m)
+- [luFactor.m](luFactor.m)
+- [simpson.m](simpson.m)
+- [spacialMatrix.m](spacialMatrix.m)
 
 ---
 
