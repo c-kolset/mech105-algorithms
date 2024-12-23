@@ -20,26 +20,26 @@ if nargin < 3, error('Too few arguments: at least 3 needed'), end
 if nargin < 4 | isempty(es), es = 0.0001; end
 if nargin < 5 | isempty(maxit), maxit = 200; end
 
-iter=0;
-ea=100;
-xr= xl;
+iter = 0;
+ea = 100;
+xr = xl;
 
 while(1)
-	xrold= xr;
+	xrold = xr;
 	iter = iter + 1;
-	xr=xu-func(xu)*(xl-xu)/(func(xl)-func(xu));
-	if xr~=0
+	xr = (xl * func(xu) - xu * func(xl))/(func(xu)-func(xl));
+	if xr~= 0
 		ea = abs((xr-xrold)/xr)*100;
 	end
 	if func(xl)*func(xr)<0
-		xl=xr;
+		xl = xr;
 	else
-		xl=xr;
+		xl = xr;
 	end
 	if iter == maxit | ea <= es, break, end
 end
 root = xr;
-fx=func(xr,varargin{:});
-ea=ea;
-iter=iter;
+fx = func(xr,varargin{:});
+ea = ea;
+iter = iter;
 end
