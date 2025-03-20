@@ -1,11 +1,11 @@
 # Functions
 This directory contains the functions written throught the course.
-- [days.m](#days.m)
-- [falsePositive.m](falsePositive.m)
-- [heun.m](heun.m)
-- [luFactor.m](luFactor.m)
-- [simpson.m](simpson.m)
-- [spacialMatrix.m](spacialMatrix.m)
+- [days.m](days.m) - computes days elapsed in a year.
+- [falsePositive.m](falsePositive.m) - numberical root finding function.
+- [heun.m](heun.m) - Heuns method for solving ODE's.
+- [luFactor.m](luFactor.m) - LU Decomposition.
+- [simpson.m](simpson.m) - numerical integration technique.
+- [spacialMatrix.m](spacialMatrix.m) - function to make special matrix with a specific set of criteria.
 
 ---
 
@@ -43,9 +43,6 @@ Synopsis: `[root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargi
 - `fx` - function evaluated at root location.
 - `ea` - approximated relative error (%).
 - `iter` - number of iterations performed.
-
-**Notes:**
-Known issue: the output of `iter` needs fixing. The output is incorrect.
 
 ---
 
@@ -113,16 +110,11 @@ Function returns a special matrix A with the following criteria:
  Synopsis: `[root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)`.
 
 ### Input
-- `func` - the function being evaluated.
-- `xl` - lower bound guess.
-- `xu` - upper bound guess.
-- `es` - desired relative error (default 0.0001%)
-- `maxit` - maximum number of iterations (default 200)
-- `varargin` - any additional parameters used by the function
+- `input` - any additional parameters used by the function
 
 
 ### Output
 - `A` - special matrix with the appropriate rules
 
 **Notes:**
-This function has not much of a practical application, rather a very good exercise for beginners to get started with the basics of matrix manipulation and user-defined functions.
+*Synopsis* and *input* need to be updated. This function has not much of a practical application, rather a very good exercise for beginners to get started with the basics of matrix manipulation and user-defined functions.
