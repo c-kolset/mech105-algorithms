@@ -32,7 +32,7 @@ while(1)
 		ea = abs((xr-xrold)/xr)*100;
 	end
 	if func(xl)*func(xr)<0
-		xl = xr;
+		xu = xr;
 	else
 		xl = xr;
 	end
