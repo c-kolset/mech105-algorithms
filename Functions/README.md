@@ -1,7 +1,7 @@
 # Functions
 This directory contains the functions written throught the course.
 - [days.m](days.m) - computes days elapsed in a year.
-- [falsePositive.m](falsePositive.m) - numberical root finding function.
+- [falsePosition.m](falsePosition.m) - numberical root finding function.
 - [heun.m](heun.m) - Heuns method for solving ODE's.
 - [luFactor.m](luFactor.m) - LU Decomposition.
 - [simpson.m](simpson.m) - numerical integration technique.
@@ -26,7 +26,7 @@ The syntax of the function is `days(<months>, <days>, <leap>)` where `<months>` 
 
 ---
 
-## [falsePositive.m](falsePositive.m)
+## [falsePosition.m](falsePosition.m)
 Function finds the root of an anonymous function using the false position method.
 Synopsis: `[root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)`.
 
